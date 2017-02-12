@@ -92,27 +92,21 @@ html, body {
 canvas {
     position: absolute;
 }
-@media screen and (min-width: 768px) and (max-width:989px){
+@media screen and (min-width: 992px) and (max-width:1200px){
     #media li{
         width:30%;
         margin:1%;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 768px) and (max-width: 991px){
     #media li{
         width:45%;
         margin:2.5%;
     }
 }
-@media screen and (max-width: 479px){
+@media screen and (max-width: 767px){
     #media li{
         width:100%;
         margin:3% 0;
     }
 }
-/*@media screen and (min-width: 990px){*/
-    /*#media li{*/
-        /*width:30%;*/
-        /*margin:1%;*/
-    /*}*/
-/*}*/
